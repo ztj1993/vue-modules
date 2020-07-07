@@ -1,9 +1,9 @@
 import Vue from 'vue'
 
-let ApiPlugin = {
+let BusPlugin = {
     install: () => {
         Vue.prototype.$bus = new Vue();
     },
 };
 
-Vue.use(ApiPlugin);
+export default BusPlugin;
