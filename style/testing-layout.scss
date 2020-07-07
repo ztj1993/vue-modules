@@ -1,17 +1,17 @@
-.layout.block {
+.testing.layout.block {
   background-color: red;
   opacity: 0.6;
 
-  .layout.block {
+  .block {
     background-color: green;
 
-    .layout.block {
+    .block {
       background-color: orange;
 
-      .layout.block {
+      .block {
         background-color: black;
 
-        .layout.block {
+        .block {
           background-color: white;
         }
       }
