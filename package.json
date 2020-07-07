@@ -16,6 +16,7 @@
     "eslint": "^6.8.0",
     "eslint-plugin-vue": "^6.2.2",
     "html-webpack-inline-source-plugin": "^0.0.10",
+    "lodash": "^4.17.15",
     "mockjs": "^1.1.0",
     "node-sass": "^4.13.1",
     "postcss-aspect-ratio-mini": "^1.0.1",
