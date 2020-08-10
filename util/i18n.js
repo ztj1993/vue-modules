@@ -10,10 +10,6 @@ export default {
         });
 
         let options = {
-            locale: process.env.VUE_APP_I18N_LOCALE || 'zh-CN',
-            fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'zh-CN',
-            silentTranslationWarn: true,
-            formatFallbackMessages: true,
             messages: messages,
         };
 
