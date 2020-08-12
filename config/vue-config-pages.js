@@ -8,7 +8,8 @@ module.exports = () => {
     let pages = {};
     let entries = [];
 
-    entries.push(...glob.sync('src/**/entry.options.js'));
+    //entries.push(...glob.sync('src/**/entry.js'));
+    //entries.push(...glob.sync('src/**/entry.options.js'));
     entries.push(...glob.sync('src/**/entry/options.js'));
 
     entries.forEach(function (entry) {
